@@ -1,0 +1,6 @@
+li $r0,0xb # source operand 1: value 1
+li $r1,0x2 # source operand 2: value 3
+div $r0,$r1 # result in $r0 should be hi=1 lo = 5 
+mhi $r0 
+put $r0 # hex display should show 0x0001
+halt # end program

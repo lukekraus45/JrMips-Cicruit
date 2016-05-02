@@ -1,0 +1,6 @@
+li $r0, 0xf5 
+jal $r0, label
+li $r0, 0x4
+put $r0
+label:
+jr $r0

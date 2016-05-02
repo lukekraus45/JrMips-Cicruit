@@ -1,0 +1,4 @@
+li $r0,0x5 # source operand 1: value 1
+addi $r0, 0x5 #adds 5+5
+put $r0 # hex display should show 0x000a
+halt # end program

@@ -1,0 +1,7 @@
+li $r0, 0x0
+bz $r0, label
+li $r0, 0x4
+put $r0
+label:
+li $r0, 0xffff
+put $r0

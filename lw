@@ -1,0 +1,5 @@
+.data
+test: .byte 7 
+.text
+
+lw $t0, test
